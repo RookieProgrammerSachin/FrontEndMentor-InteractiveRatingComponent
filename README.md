@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-with-states-managed-by-js-cbTPNKFsMQ](https://www.frontendmentor.io/solutions/interactive-rating-component-with-states-managed-by-js-cbTPNKFsMQ)
+- Live Site URL: [https://rookieprogrammersachin.github.io/FrontEndMentor-InteractiveRatingComponent/](https://rookieprogrammersachin.github.io/FrontEndMentor-InteractiveRatingComponent/)
 
 ## My process
 
