@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(216deg, 12%, 8%);
+}
+
+.container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-component {
+  width: 375px;
+  display: flex;
+  background: hsl(215.29deg, 22.08%, 15.1%);
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 8%;
+  gap: 1.5rem;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-duration: 100ms;
+}
+
+.image-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(213deg, 19%, 18%);
+  padding: 1rem;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.image-star img {
+  width: 1rem;
+}
+
+h2, p, button, input {
+  font-family: "Overpass", sans-serif;
+}
+
+h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: -10px;
+}
+
+p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+}
+
+.btn-submit {
+  padding: 0.6rem;
+  border-radius: 50px;
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.btn-submit:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.button-rating-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+
+.rate {
+  padding: 1rem 1.2rem;
+  padding-bottom: 0.75rem;
+  border-radius: 50%;
+  color: hsl(216deg, 12%, 54%);
+  background-color: hsl(213deg, 19%, 18%);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.rate:first-of-type {
+  padding-right: 1.4rem;
+}
+
+.rate:focus {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+}
+
+.rate:hover {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(216deg, 12%, 54%);
+}
+
+.clicked {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  text-align: justify;
+}
+
+.selection {
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 400;
+}
+
+.appreciate {
+  text-align: center;
+}
+
+.attribution {
+  color: white;
+  font-family: system-ui;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .rating-component {
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 5%;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .btn-submit {
+    padding: 1rem;
+  }
+  .image-star {
+    padding: 0.8rem;
+    border-radius: 50%;
+  }
+  .image-star img {
+    width: 0.8rem;
+  }
+  .rate {
+    padding: 0.8rem 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 50%;
+  }
+  .rate:first-of-type {
+    padding-right: 1.1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
